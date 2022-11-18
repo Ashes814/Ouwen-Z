@@ -23,37 +23,43 @@ Large: 1.8
 
 --- 02 COLORS
 #rgba(167,168,168,0.8)
-- Primary: #14b5b2
+- Primary: #0b7285
 - Tints:
-#e8f8f7
-#b9e9e8
-#8adad9
-#5bcbc9
-#2cbcba
+#e3fafc
+#c5f6fa
+#66d9e8
+#22b8cf
+#15aabf
+#0c8599
 
 - Shades: 
-#12a3a0
-#10918e
-#0a5b59
-#063635
-#042424
-#021212
+#095b6a
+#074450
+#063943
+#032228
+#02171b
+#010b0d
 
 - Accents:
-#ffe6eb
-#feb3c4
-#fe809d
-#fd4d76
-#fd3362
-#fc003b
-#e30035
-#ca002f
-#970023
-#7e001e
-#650018
-#32000c
+#fff5f5
+#ffe3e3
+#ffa8a8
+#ff8787
+#e03131
+#c92a2a
+#b52626
+#a12222
+#8d1d1d
+#651515
+#3c0d0d
+#140404
 
 - Greys
+#444a52
+
+#818994
+
+#1a1d21
 
 #888
 #767676 (lightest grey allowed on #fff)
@@ -88,7 +94,7 @@ html {
 body {
   font-family: "Inter", sans-serif;
   line-height: 1;
-  background-color: black;
+  background-color: #1a1d21;
 }
 
 /********************
@@ -105,6 +111,16 @@ body {
 *********************/
 .heading-1 {
   font-size: 6.2rem;
+}
+
+.heading-2 {
+  font-size: 3.6rem;
+  font-weight: 600;
+}
+
+.heading-3 {
+  font-size: 3rem;
+  font-weight: 600;
 }
 
 /********************
@@ -129,7 +145,7 @@ body {
   font-size: 2.4rem;
   font-weight: 600;
   text-decoration: none;
-  background-color: #2cbcba;
+  background-color: #22b8cf;
   color: #eee;
 
   transition: all 0.3s;
@@ -144,7 +160,7 @@ body {
   font-size: 3rem;
   font-weight: 600;
   text-decoration: none;
-  background-color: #10918e;
+  background-color: #15aabf;
   color: #eee;
 
   border-radius: 9px;
