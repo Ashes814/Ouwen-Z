@@ -101,6 +101,7 @@
 *********************/
 .section-career {
   padding: 0 9.6rem;
+  margin-bottom: 9.6rem;
   color: #fff;
 }
 
@@ -114,6 +115,10 @@
   text-align: center;
 }
 
+/********************
+    Section Carrer  
+*********************/
+
 .career-born-text {
   font-size: 1.8rem;
   line-height: 1.8;
@@ -125,16 +130,21 @@
   background-color: #818994;
   border-radius: 9px;
   box-shadow: 0.5rem 0.5rem 5rem rgba(57, 56, 56, 0.33);
-  margin-bottom: 9.6rem;
+  /* margin-bottom: 9.6rem; */
 }
+
+/********************
+    Section Carrer-prestudy  
+*********************/
 
 .career-prestudy-container {
   display: grid;
   grid-template-columns: 3fr 10fr;
   position: relative;
+  /* margin-bottom: 4.8rem; */
 }
 
-.career-visual-border {
+/* .career-visual-border {
   height: 60rem;
   border-right: 2px solid #444a52;
   position: absolute;
@@ -145,34 +155,120 @@
   transform: translateY(-25%);
 
   z-index: -1;
-}
+} */
 
 .career-prestudy-contents {
+  position: relative;
   display: flex;
   flex-direction: column;
-  gap: 4.8rem;
+  /* gap: 4.8rem; */
   grid-column: 2;
+  border-left: 2px solid #444a52;
+  height: 50rem;
+  padding: 9.6rem;
 }
 
-.career-shead {
+.career-prestudy-family {
+  margin-bottom: 4.8rem;
+}
+
+.career-shcool-contents {
+  height: 90rem;
+}
+
+.career-school-college {
+  margin-bottom: 4.8rem;
+}
+.college-text {
+  margin-bottom: 2.4rem;
+}
+.college-links {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.college-link:link,
+.college-link:visited {
+  text-decoration: none;
+  padding: 8rem;
+  background-color: #fff;
+  border-radius: 9px;
+}
+
+.college-link:hover,
+.college-link:active {
+  background-color: #ccc;
+}
+/* .career-shead {
   display: flex;
   gap: 4.8rem;
   align-items: center;
-}
+} */
 
 .border-decor {
-  width: 10rem;
-  transform: translateX(-3.6rem);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5rem;
   stroke: #444a52;
   background-color: #1a1d21;
+
+  /* position: absolute; */
+  /* top: 0; */
+}
+
+.border-decor1 {
+  transform: translate(-50%, 8.5rem);
+}
+
+.border-decor2 {
+  transform: translate(-50%, 28.5rem);
+}
+
+.border-decor3 {
+  transform: translate(-50%, 68.5rem);
+}
+
+.border-decor-college1 {
+  transform: translate(-50%, 38.5rem);
+  stroke: #fff;
+  background-color: #66d9e8;
+  border-radius: 50px;
+}
+
+.border-decor-college2 {
+  transform: translate(-50%, 48.5rem);
+  stroke: #fff;
+  background-color: #66d9e8;
+  border-radius: 50px;
+}
+
+.border-decor-college3 {
+  transform: translate(-50%, 58.5rem);
+  stroke: #fff;
+  background-color: #66d9e8;
+  border-radius: 50px;
 }
 
 .career-little-photo {
   width: 5rem;
   border-radius: 50%;
-  transform: translateX(-150%);
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
+.career-little-photo1 {
+  transform: translate(50%, 8.5rem);
+}
+
+.career-little-photo2 {
+  transform: translate(50%, 28.5rem);
+}
+
+.career-little-photo3 {
+  transform: translate(50%, 68.5rem);
+}
 .career-content {
   padding: 0 9.6rem 0 0;
   display: flex;
@@ -184,4 +280,69 @@
   color: #bbb;
   font-size: 1.8rem;
   line-height: 1.8;
+}
+
+/********************
+    Section Carrer-school  
+*********************/
+.career-school-img img {
+  width: 100%;
+  border-radius: 9px;
+}
+
+/********************
+    Section Carrer-future  
+*********************/
+
+.career-future-container {
+  padding: 9.6rem 25rem;
+}
+
+.career-future-head {
+  text-align: center;
+}
+
+.career-future-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  color: #bbb;
+}
+
+/********************
+    Section publications
+*********************/
+
+.publications-head {
+  font-size: 1.8rem;
+  color: #66d9e8;
+  padding-left: 20rem;
+  padding-bottom: 5rem;
+}
+
+.section-publications {
+  margin-bottom: 9.6rem;
+}
+
+.publications-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.publication {
+  background-color: #fff;
+  /* padding: 9.6rem; */
+}
+
+.publication-img {
+  width: 20%;
+}
+
+.publication-text {
+  display: flex;
+  gap: 2.4rem;
+  flex-direction: column;
+  align-items: center;
+  padding: 4.8rem;
 }
