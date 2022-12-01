@@ -123,6 +123,11 @@ body {
   font-weight: 600;
 }
 
+.little-head {
+  font-size: 1.8rem;
+  color: #66d9e8;
+}
+
 /********************
     Css Grid Setting  
 *********************/
